@@ -27,7 +27,7 @@ def main():
     # check if fruit in fruits dict & print calories
     fruit = input("Item: ").lower()
     if fruit in fruits:
-        print("Calories: " + str(fruits[fruit]))
+        print(f"Calories: {fruits[fruit]}")
 
 
 main()
